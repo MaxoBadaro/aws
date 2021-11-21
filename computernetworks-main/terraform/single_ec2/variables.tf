@@ -37,3 +37,13 @@ variable "instance_type" {
   description = "EC2 instance type"
   type = string
 }
+
+variable "vpc_id" {
+  description = "VPC lab id"
+  type = string
+}
+
+variable "internet_gateway_id" {
+  description = "IGW lab id"
+  type = string
+}
