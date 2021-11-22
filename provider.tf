@@ -13,7 +13,7 @@ terraform {
   }
 
 
-  backend "remote" {
+backend "remote" {
    organization = "_organization_"
 
     workspaces {
